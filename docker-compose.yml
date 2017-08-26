@@ -1,0 +1,26 @@
+version: '2'
+services:
+  frontend:
+    extends:
+      file: ./btc-frontend/docker-compose.yml
+      service: frontend
+  backend:
+    extends:
+      file: ./btc-backend/docker-compose.yml
+      service: backend
+  postgres:
+    image: postgres:9.6.4
+    ports:
+      - "5432:5432"
+    env_file:
+      ./postgres.env
+    networks:
+      - btc-network
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    networks:
+      - btc-network
+networks:
+  btc-network:

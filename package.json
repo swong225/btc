@@ -1,0 +1,14 @@
+{
+  "name": "btc",
+  "version": "0.0.1",
+  "scripts": {
+    "frontend": "cd btc-frontend && npm start",
+    "backend": "cd btc-backend && docker-compose up --build",
+    "start": "concurrently --allow-restart \"npm run frontend\" \"npm run backend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
