@@ -1,0 +1,6 @@
+[submodule "btc-frontend"]
+	path = btc-frontend
+	url = https://github.com/swong225/btc-frontend.git
+[submodule "btc-backend"]
+	path = btc-backend
+	url = https://github.com/swong225/btc-backend.git
