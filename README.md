@@ -2,7 +2,7 @@
 
 ### Setup
 git clone --recursive https://github.com/swong225/btc.git   
-Ensure ./postgres.env values match btc-backend/src/config/secrets.js  
+Ensure ./postgres.env values match btc-backend/src/config/index.js  
 
 ### Run
 In btc-backend and btc-frontend do a `npm install`  
