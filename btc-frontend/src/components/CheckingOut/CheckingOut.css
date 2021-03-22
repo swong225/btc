@@ -1,0 +1,30 @@
+.checkingout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkingout-container {
+  max-width: 50% !important;
+}
+
+.checkingout-top-section {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.checkingout-option-buttons {
+  margin: 5px;
+}
+
+.checkingout-bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.checkingout-signin-button {
+  align-self: center;
+}

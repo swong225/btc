@@ -1,0 +1,15 @@
+.orderHistory-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.orderHistory-table {
+  min-width: 50%;
+  max-width: 75%;
+}
+
+.orderHistory-header {
+  color: #D3D3D3;
+}
