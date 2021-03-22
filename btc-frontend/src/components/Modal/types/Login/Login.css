@@ -1,0 +1,14 @@
+#modal-container {
+  -webkit-animation-duration: .5s;
+}
+
+.split-buttons {
+  justify-content: space-between !important;
+}
+
+.guest-container {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px #dbdbdb solid;
+}

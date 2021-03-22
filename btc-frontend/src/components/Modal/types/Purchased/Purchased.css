@@ -1,0 +1,7 @@
+#modal-container {
+  -webkit-animation-duration: .5s;
+}
+
+.float-buttons {
+  justify-content: flex-end !important;
+}

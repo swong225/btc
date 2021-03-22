@@ -1,7 +1,7 @@
 ### Starts the btc app
 
 ### Setup
-git clone --recursive https://github.com/swong225/btc.git   
+git clone this repository
 Ensure ./postgres.env values match btc-backend/src/config/index.js  
 
 ### Run

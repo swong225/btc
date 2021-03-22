@@ -1,0 +1,35 @@
+.container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.preq-required {
+  width: 100%;
+}
+
+.center-container {
+  text-align: center;
+  font-size: large;
+}
+
+.confirm-container {
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tile-text {
+  color: inherit !important;
+}
+
+.center-text {
+  justify-content: center;
+}
+
+.wrap-container {
+  flex-wrap: wrap;
+}
+
+.no-cursor {
+  cursor: not-allowed;
+}

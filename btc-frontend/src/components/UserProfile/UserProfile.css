@@ -1,0 +1,14 @@
+.userData-container {
+  flex-grow: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.userData-entry {
+  margin-bottom: 10px;
+}
+
+.profile-submit {
+  width: 100%;
+}

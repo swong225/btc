@@ -1,0 +1,21 @@
+.bag-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns-container {
+  height: 100%;
+}
+
+.bag-sidebar {
+  border-left: 1px #dbdbdb solid;
+  text-align: center;
+}
+
+.subtotal-container {
+  padding-bottom: 10px;
+}
+
+.cost-style {
+  color: red;
+}
