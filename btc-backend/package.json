@@ -18,7 +18,7 @@
     "express": "~4.15.2",
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.2.0",
-    "morgan": "~1.8.1",
+    "morgan": "~1.9.1",
     "node-dir": "^0.1.17",
     "pg": "^7.1.2",
     "sequelize": "^4.37.4",
