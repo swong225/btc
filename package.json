@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "frontend": "cd btc-frontend && npm start",
-    "backend": "cd btc-backend && docker-compose up --build",
+    "backend": "cd btc-backend && npm start",
     "start": "concurrently --allow-restart \"npm run frontend\" \"npm run backend\""
   },
   "author": "",
