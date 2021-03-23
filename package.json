@@ -5,7 +5,7 @@
     "frontend": "./start-frontend.sh",
     "backend": "cd btc-backend && npm start",
     "start": "concurrently --allow-restart \"npm run frontend\" \"npm run backend\"",
-    "heroku-postbuild": "cd btc-frontend && npm install && npm run build"
+    "heroku-postbuild": "cd btc-frontend && npm install && npm run build & cd btc-backend && npm install"
   },
   "author": "",
   "license": "ISC",
