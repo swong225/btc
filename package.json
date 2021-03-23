@@ -2,7 +2,7 @@
   "name": "btc",
   "version": "0.0.1",
   "scripts": {
-    "frontend": "cd btc-frontend && npm start",
+    "frontend": "./start-frontend.sh",
     "backend": "cd btc-backend && npm start",
     "start": "concurrently --allow-restart \"npm run frontend\" \"npm run backend\"",
     "heroku-postbuild": "cd btc-frontend && npm install && npm run build"
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^3.5.0"
+    "concurrently": "^3.5.0",
+    "serve": "^11.3.2"
   }
 }
