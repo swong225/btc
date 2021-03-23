@@ -4,7 +4,8 @@
   "scripts": {
     "frontend": "cd btc-frontend && npm start",
     "backend": "cd btc-backend && npm start",
-    "start": "concurrently --allow-restart \"npm run frontend\" \"npm run backend\""
+    "start": "concurrently --allow-restart \"npm run frontend\" \"npm run backend\"",
+    "heroku-postbuild": "cd btc-frontend && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
