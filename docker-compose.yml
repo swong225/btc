@@ -9,9 +9,8 @@ services:
       file: ./btc-backend/docker-compose.yml
       service: backend
   postgres:
-    image: postgres:9.6.4
-    ports:
-      - "5432:5432"
+    image: postgres
+    restart: always
     env_file:
       ./postgres.env
     networks:

@@ -4,7 +4,5 @@ WORKDIR /home/btc-backend
 
 COPY package.json ./package.json
 
-ADD ./start.sh ./start.sh
-RUN chmod 755 ./start.sh
+CMD sleep 15 && npm install && npm start
 
-ENTRYPOINT ["/bin/sh", "./start.sh"]
