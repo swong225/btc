@@ -21,7 +21,7 @@
     "node-dir": "^0.1.17",
     "pg": "^7.1.2",
     "pug": "^3.0.2",
-    "sequelize": "^4.37.4",
+    "sequelize": "^6.29.0",
     "serve-favicon": "~2.4.2",
     "supervisor": "^0.12.0",
     "winston": "^2.3.1",
