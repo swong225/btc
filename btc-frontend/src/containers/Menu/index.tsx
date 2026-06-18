@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-const uuidv1 = require('uuid/v1');
 
 import Menu from '../../components/Menu';
 
 import { addDrink, updateDrink } from '../../redux/bag/actions';
 import { getUserId } from '../../redux/user/selectors';
+
+const uuidv1 = require('uuid/v1');
 
 interface MenuProps {
   userId: string;

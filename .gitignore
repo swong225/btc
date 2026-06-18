@@ -2,3 +2,4 @@ node_modules/
 postgres.env
 logs/
 build/
+.DS_Store

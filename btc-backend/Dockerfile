@@ -1,8 +1,13 @@
-FROM node:7.7.0-alpine
+FROM node:20-alpine
 
-WORKDIR /home/btc-backend
+WORKDIR /app
 
-COPY package.json ./package.json
+COPY package.json ./
+RUN npm install --production
 
-CMD sleep 15 && npm install && npm start
+COPY . .
+
+EXPOSE 3001
+
+CMD ["node", "bin/www"]
 

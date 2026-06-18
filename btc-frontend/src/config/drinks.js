@@ -51,14 +51,14 @@ module.exports = {
       key: 'medium',
       label: 'Medium',
       price: 4.20,
-      oz: 20,
+      oz: 16,
       img: 'medium'
     },
     large: {
       key: 'large',
       label: 'Large',
       price: 4.75,
-      oz: 32,
+      oz: 22,
       img: 'large'
     }
   },

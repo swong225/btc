@@ -1,5 +1,7 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const Sequelize = require('sequelize');
+const { Op } = Sequelize;
 
 const db = require('../../db');
 
@@ -38,7 +40,7 @@ module.exports = {
 
           // delete the temporary user that was assigned to the bagId
           const tempUser = await User.findOne({
-            where: { activeBagId: bagId, username: { $eq: null } }
+            where: { activeBagId: bagId, username: { [Op.eq]: null } }
           });
           if (tempUser) tempUser.destroy();
 
@@ -74,7 +76,7 @@ module.exports = {
 
         // delete the temporary user that was assigned to the bagId
         const tempUser = await User.findOne({
-          where: { activeBagId: bagId, username: { $eq: null } }
+        where: { activeBagId: bagId, username: { [Op.eq]: null } }
         });
         tempUser.destroy();
       }
